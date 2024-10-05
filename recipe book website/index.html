@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Book</title>
+    <style>
+      body {
+        background-color: whitesmoke;
+        padding: 20px;
+        display: flex;
+        font-family: Arial, sans-serif;
+        align-items: center;
+        justify-content: center;
+      }
+      .recipe-title {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .recipe-image {
+        width:50%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .recipe-info {
+        width: 100%;
+        margin-bottom: 20px;
+        border-collapse: collapse;
+      }
+      .recipe-info th,.recipe-info td {
+        text-align: left;
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+      .recipe-info th{
+        background-color: #f0f0f0;
+      }
+      .recipe-container{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="recipe-container">
+      <h1 class="recipe-title">Classic Spaghetti Bolognese</h1>
+      <img src="pexels-fotios-photos-1279330.jpg" alt="Spaghetti Bolognese" class="recipe-image">
+      <table class="recipe-info">
+        <tr>
+          <th>Preparation Time</th>
+          <td>20 minutes</td>
+        </tr>
+        <tr>
+          <th>Cooking Time</th>
+          <td>45 minutes</td>
+        </tr>
+        <tr>
+          <th>Serves</th>
+          <td>4 people</td>
+        </tr>
+      </table>
+      <h2>Ingridients</h2>
+      <ul class="ingredients-list">
+        <li>500g spaghetti</li>
+        <li>500g ground chicken</li>
+        <li>1 onion, chopped</li>
+        <li>2 garlic cloves, minced</li>
+        <li>800g canned tomatoes</li>
+        <li>Salt and pepper to taste</li>
+      </ul>
+      <h2>Instructions</h2>
+      <ol class="instructions-list">
+        <li>Cook the spaghetti according to package instructions.</li>
+        <li>
+          In a pan, heat some oil and sauté the onion and garlic until soft
+        </li>
+        <li>Add the ground beef and cook until browned</li>
+        <li>Pour in the canned tomatoes and let it simmer for 20 minutes.</li>
+        <li>
+          Season with salt and pepper, and serve the sauce over the spaghetti
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>
